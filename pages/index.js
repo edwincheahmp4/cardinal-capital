@@ -24,7 +24,7 @@ export default function Home() {
 
         {/* ── Nav ── */}
         <nav style={{
-          position: 'sticky', top: 0, zIndex: 100,
+          position: 'static', top: 0, zIndex: 100,
           background: '#fff', borderBottom: `1px solid ${BORDER}`,
           height: '52px', display: 'flex', alignItems: 'center',
           justifyContent: 'space-between', padding: '0 28px',
