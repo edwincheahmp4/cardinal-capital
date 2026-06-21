@@ -22,8 +22,9 @@ export default function Home() {
 
       <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', fontFamily: FONT_SANS }}>
 
-        {/* ── Nav ── */}
-        <nav style={{
+        {/* ── Nav ── 
+        
+         <nav style={{
           background: '#fff', borderBottom: `1px solid ${BORDER}`,
           height: '52px', display: 'flex', alignItems: 'center',
           justifyContent: 'space-between', padding: '0 28px',
@@ -37,6 +38,8 @@ export default function Home() {
             </Link>
           </div>
         </nav>
+        
+        */} 
 
         {/* ── Issue header ── */}
         <div style={{ maxWidth: '700px', margin: '0 auto', padding: '40px 28px 24px', width: '100%' }}>
