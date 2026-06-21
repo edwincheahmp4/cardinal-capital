@@ -22,7 +22,7 @@ export default function Home() {
 
       <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', fontFamily: FONT_SANS }}>
 
-        {/* ── Nav ── 
+        {/* ── Nav ── */} 
         
          <nav style={{
           background: '#fff', borderBottom: `1px solid ${BORDER}`,
@@ -38,50 +38,6 @@ export default function Home() {
             </Link>
           </div>
         </nav>
-        
-        */} 
-
-        {/* ── Issue header ── */}
-        <div style={{ maxWidth: '700px', margin: '0 auto', padding: '40px 28px 24px', width: '100%' }}>
-          <p style={{
-            margin: '0 0 10px',
-            fontFamily: FONT_SANS,
-            fontSize: '11px', fontWeight: 700,
-            letterSpacing: '0.1em', textTransform: 'uppercase',
-            color: ACCENT,
-          }}>
-            {latest.volume} &nbsp;·&nbsp; {latest.date} &nbsp;·&nbsp; Latest Issue
-          </p>
-          <h1 style={{
-            margin: '0 0 14px',
-            fontFamily: FONT_SANS,
-            fontSize: '28px', fontWeight: 800,
-            lineHeight: 1.2, letterSpacing: '-0.5px',
-            color: '#1A1A1A',
-          }}>
-            {latest.headline}
-          </h1>
-          <p style={{
-            margin: '0 0 20px',
-            fontFamily: FONT_SERIF,
-            fontSize: '16px', lineHeight: 1.6, color: '#6B6B6B',
-          }}>
-            {latest.summary}
-          </p>
-          <div style={{ display: 'flex', gap: '20px', alignItems: 'center' }}>
-            <a
-              href={latest.file}
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ fontSize: '13px', fontWeight: 600, color: ACCENT, textDecoration: 'none' }}
-            >
-              Open in new tab →
-            </a>
-            <Link href="/archive" style={{ fontSize: '13px', color: GRAY, textDecoration: 'none' }}>
-              Past issues
-            </Link>
-          </div>
-        </div>
 
         {/* ── Divider ── */}
         <div style={{ borderTop: `1px solid ${BORDER}`, margin: '0 28px' }} />
