@@ -115,7 +115,7 @@ export default function Subscribe() {
                 You're in. 
               </p>
               <p style={{ margin: '6px 0 0', fontSize: '14px', color: '#444', fontFamily: FONT_SERIF }}>
-                Check your inbox to confirm — first issue lands this Friday.
+                Next issue lands this Friday.
               </p>
             </div>
           ) : (
